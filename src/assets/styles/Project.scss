@@ -19,9 +19,25 @@
     text-decoration: underline;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+
+    a {
+        transition: color 0.2s;
+
+        &:hover {
+            color: #5000ca;
+        }
+    }
+}
   
 .zoom {
     border-radius: 5px;
+    height: 400px;
+    object-fit:fill;
     transition: transform .2s;
     margin: 0 auto;
 }
