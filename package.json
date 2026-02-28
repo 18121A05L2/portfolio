@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@dotenvx/dotenvx": "^1.52.0",
     "@types/react-vertical-timeline-component": "^3.3.6"
   }
 }

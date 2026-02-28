@@ -1,4 +1,7 @@
 import { ResumeData } from "../types/resume";
+import twitterCloneImage from '../assets/images/twitter-clone.png';
+import tradingBotImage from '../assets/images/trading-bot.png';
+import certiticateIssuance from '../assets/images/certificate-issuance.png';
 
 export const blockchainResume: ResumeData = {
   main: {
@@ -59,11 +62,28 @@ export const blockchainResume: ResumeData = {
     }
   ],
   projects: [
-    {
+     {
       id: "proj-1",
-      title: "Projects Overview",
-      description: "All my latest project details. Including openzeppelin ethernaut challenges and Side Projects (Integrated Binance API for automated trading bot operations).",
-      url: "https://projects-overview-one.vercel.app/"
+      title: "Twitter Clone",
+      description: "Developed a full-stack Twitter clone using React.js, Node.js, and MongoDB, featuring core functionalities like tweet creation, timeline display, and user interactions. Implemented a clean component-based architecture on the frontend and built scalable RESTful APIs on the backend.",
+      imageUrl: twitterCloneImage,
+      website: "https://twitter-clone-app-frontend.vercel.app/",
+      githubUrl: "https://github.com/18121A05L2/Twitter-Clone-App"
+    },
+    {
+      id: "proj-2",
+      title: "Trading Bot",
+      description: "Integrated Binance API for automated trading bot operations. Deployed in AWS Lambda.",
+      imageUrl: tradingBotImage,
+      githubUrl: "https://github.com/18121A05L2/ProjectB-37"
+    },
+    {
+      id: "proj-3",
+      title: "Blockchain Certificate Issuance Platform Workshop",
+      description: "3 day workshop project where I designed and implemented a Full Stack Blockchain-based Credential Issuance Platform using Solana.",
+      imageUrl: certiticateIssuance,
+      website: "https://frontend-aicerts-solana-project.vercel.app/",
+      githubUrl: "https://github.com/18121A05L2/aicerts-solana-project"
     }
   ]
 };

@@ -12,8 +12,9 @@ export interface ProjectData {
   id: string;
   title: string;
   description: string;
-  url: string;
-  imageUrl?: string; 
+  website?: string;
+  githubUrl: string;
+  imageUrl: string; 
 }
 
 export interface SkillCategory {
