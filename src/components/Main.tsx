@@ -3,8 +3,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import profile from '../assets/images/profile.jpeg';
+import { MainData } from "../types/resume";
 
-function Main() {
+interface MainProps {
+  data: MainData;
+}
+
+function Main({ data }: MainProps) {
 
   return (
     <div className="container">
@@ -14,15 +19,15 @@ function Main() {
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/18121A05L2" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/lakshmi-reddy-1a355a1a1/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href={data.githubUrl} target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href={data.linkedinUrl} target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
-          <h1>Lakshmi Sanikommu</h1>
-          <p>Full Stack Blockchain Developer</p>
+          <h1>{data.title}</h1>
+          <p>{data.subtitle}</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon /></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href={data.githubUrl} target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href={data.linkedinUrl} target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
         </div>
       </div>
