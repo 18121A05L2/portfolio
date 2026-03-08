@@ -5,7 +5,7 @@ export interface Experience {
   location: string;
   period: string;
   description: string;
-  type?: string; 
+  type?: string;
 }
 
 export interface ProjectData {
@@ -14,7 +14,7 @@ export interface ProjectData {
   description: string;
   website?: string;
   githubUrl: string;
-  imageUrl: string; 
+  imageUrl: string;
 }
 
 export interface SkillCategory {
@@ -29,6 +29,7 @@ export interface MainData {
   subtitle: string;
   githubUrl: string;
   linkedinUrl: string;
+  cyfrinProfile?: string;
 }
 
 export interface ResumeData {

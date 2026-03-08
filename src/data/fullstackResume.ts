@@ -2,6 +2,7 @@ import { ResumeData } from "../types/resume";
 import twitterCloneImage from '../assets/images/twitter-clone.png';
 import tradingBotImage from '../assets/images/trading-bot.png';
 import certiticateIssuance from '../assets/images/certificate-issuance.png';
+import vibeCodingImage from '../assets/images/campaings-dashboard.png';
 
 export const fullstackResume: ResumeData = {
   main: {
@@ -9,6 +10,7 @@ export const fullstackResume: ResumeData = {
     subtitle: "Full Stack Engineer",
     githubUrl: "https://github.com/18121A05L2",
     linkedinUrl: "https://www.linkedin.com/in/lakshmi-reddy-1a355a1a1/",
+    cyfrinProfile: "https://profiles.cyfrin.io/u/lucky2892000"
   },
   expertise: [
     {
@@ -27,7 +29,7 @@ export const fullstackResume: ResumeData = {
       title: "DevOps & Automation",
       iconType: "docker",
       description: "Skilled in improving release frequency and reducing manual deployment times through automated CI/CD pipelines using GitHub Actions, Docker, and AWS.",
-      skills: ["AWS", "CI/CD pipelines", "Git", "UnitTesting", "Docker","GitHub Actions"]
+      skills: ["AWS", "CI/CD pipelines", "Git", "UnitTesting", "Docker", "GitHub Actions"]
     }
   ],
   experience: [
@@ -80,6 +82,14 @@ export const fullstackResume: ResumeData = {
       imageUrl: certiticateIssuance,
       website: "https://frontend-aicerts-solana-project.vercel.app/",
       githubUrl: "https://github.com/18121A05L2/aicerts-solana-project"
+    },
+    {
+      id: "proj-4",
+      title: "Vibe Coding Project",
+      description: "An assessment project built like a workshop using Vibe Coding techniques.",
+      imageUrl: vibeCodingImage,
+      githubUrl: "https://github.com/18121A05L2/AMGO_Games",
+      website: "https://amgo-games-lac.vercel.app/"
     }
   ]
 };
