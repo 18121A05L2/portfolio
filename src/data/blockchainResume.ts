@@ -1,8 +1,8 @@
 import { ResumeData } from "../types/resume";
-import twitterCloneImage from '../assets/images/twitter-clone.png';
-import tradingBotImage from '../assets/images/trading-bot.png';
-import certiticateIssuance from '../assets/images/certificate-issuance.png';
-import vibeCodingImage from '../assets/images/campaings-dashboard.png';
+import twitterCloneImage from '../assets/images/twitter-clone-new.png';
+import tradingBotImage from '../assets/images/trading-bot-new.png';
+import certiticateIssuance from '../assets/images/certificate-issuance-new.png';
+import vibeCodingImage from '../assets/images/campaings-dashboard-new.png';
 
 export const blockchainResume: ResumeData = {
   main: {
