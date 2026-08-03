@@ -7,7 +7,7 @@ import vibeCodingImage from '../assets/images/campaings-dashboard-new.png';
 export const fullstackResume: ResumeData = {
   main: {
     title: "Lakshmi Sanikommu",
-    subtitle: "Full Stack Engineer",
+    subtitle: "Software Engineer | Full-Stack (React · .NET · Agentic AI Engineering)",
     githubUrl: "https://github.com/18121A05L2",
     linkedinUrl: "https://www.linkedin.com/in/lakshmi-reddy-1a355a1a1/",
     cyfrinProfile: "https://profiles.cyfrin.io/u/lucky2892000"
@@ -17,19 +17,19 @@ export const fullstackResume: ResumeData = {
       title: "Frontend Development",
       iconType: "react",
       description: "Specialized in creating dynamic and responsive user interfaces using React and Next.js. Experienced with state management, SEO optimization, and implementing micro-frontend architectures.",
-      skills: ["React.js", "Javascript", "Next.js", "Redux", "Tailwindcss", "Responsive UI", "SEO", "Micro Frontends"]
+      skills: ["React.js", "Javascript", "Typescript", "Next.js", "Redux", "MobX", "Responsive UI", "SEO", "Micro Frontends"]
     },
     {
       title: "Backend Development",
       iconType: "backend",
-      description: "Strong background in designing scalable backend systems and serverless workflows using Node.js, NestJS, and AWS Lambda. Proficient in database management with MongoDB and DynamoDB.",
-      skills: ["Node.js", "DynamoDB", "NestJS", "MongoDB", "Express.js", "Rest APIs", "Typescript"]
+      description: "Strong background in designing scalable backend systems and RESTful APIs using ASP.NET Core, C#, and Node.js. Proficient in database management with SQL Server, Entity Framework Core, MongoDB, and DynamoDB.",
+      skills: ["ASP.NET Core", "C#", "Node.js", "SQL Server", "Entity Framework", "DynamoDB", "MongoDB", "Express.js", "NestJS", "REST APIs"]
     },
     {
-      title: "DevOps & Automation",
+      title: "Cloud & Agentic AI",
       iconType: "docker",
-      description: "Skilled in improving release frequency and reducing manual deployment times through automated CI/CD pipelines using GitHub Actions, Docker, and AWS.",
-      skills: ["AWS", "CI/CD pipelines", "Git", "UnitTesting", "Docker", "GitHub Actions"]
+      description: "Skilled in cloud infrastructure with AWS, CI/CD pipelines, and applying agentic AI-assisted development workflows (Claude Code, GitHub Copilot, Antigravity) to accelerate delivery and raise code quality.",
+      skills: ["AWS", "CI/CD Pipelines", "Docker", "Git", "Claude Code", "GitHub Copilot", "Antigravity", "AI Agents"]
     }
   ],
   experience: [
@@ -39,7 +39,7 @@ export const fullstackResume: ResumeData = {
       company: "DAZN",
       location: "Hyderabad",
       period: "10/2024 - Present",
-      description: "Getting familiar with modern frontend architecture concepts like micro-frontends using single-spa for scalable web application development. Architected and built 'Hermes', an internal full-stack tool (React + NestJS) enabling dynamic discount and user access management, reducing rollout time by 99% and cutting manual operations by 80%. Streamlined the development process by implementing CI/CD pipelines, reducing manual deployment time and improving release frequency."
+      description: "Developed and maintained RESTful APIs using ASP.NET Core and C#, improving backend performance with Entity Framework Core and SQL Server. Designed and built a custom Watch Next recommendation API using .NET (C#) to support integration across platforms. Enhanced a React and TypeScript-based micro-frontend architecture using single-spa, serving as the application's entry point. Applied agentic AI-assisted engineering workflows (GitHub Copilot, Claude Code) to reduce boilerplate, accelerate delivery, and maintain code quality. Contributed to performance optimization and new-user acquisition features for high-traffic events."
     },
     {
       id: "exp-2",
@@ -47,31 +47,22 @@ export const fullstackResume: ResumeData = {
       company: "DAZN",
       location: "Hyderabad",
       period: "10/2022 - 10/2024",
-      description: "Led the redesign of the DAZN Bet integration page (dazn.com/bet), including implementing Single Sign-On (SSO) to seamlessly authenticate users with the external DAZN Bet platform. Built a scalable SEO framework for the DAZN platform, enabling developers to efficiently generate SEO-compliant pages without duplicating effort. Built scalable backend solutions using AWS Lambda, DynamoDB, and S3, enabling efficient serverless workflows and data storage. Specialized in debugging, understanding legacy code, and resolving complex issues by identifying root causes and implementing robust fixes. Developed a web solution specifically designed to be embedded within native Android and iOS apps using WebView, ensuring smooth integration and consistent user experience."
-    },
-    {
-      id: "exp-3",
-      role: "Full Stack Developer",
-      company: "Aicerts",
-      location: "Remote",
-      period: "Freelancer",
-      type: "Freelancer",
-      description: "Contributed to core platform modules such as Dashboard, Designer, Issuance, Credential Management, Integrations, and Email systems across the certification lifecycle. My work has focused on the certification lifecycle, where I developed smart contracts and integrated them across the frontend and backend systems."
+      description: "Built a scalable, reusable SEO framework and serverless backend solutions on AWS Lambda, DynamoDB, and S3. Contributed to full-stack web applications using ASP.NET Core, C#, React, and TypeScript. Led the redesign of the DAZN Bet integration page and implemented Single Sign-On (SSO) for seamless authentication. Diagnosed and resolved complex production issues and developed a WebView-based solution embedded in native apps. Participated in platform integration for major strategic content acquisitions like the NFL launch."
     }
   ],
   projects: [
     {
       id: "proj-1",
       title: "Twitter Clone",
-      description: "Developed a full-stack Twitter clone using React.js, Node.js, and MongoDB, featuring core functionalities like tweet creation, timeline display, and user interactions. Implemented a clean component-based architecture on the frontend and built scalable RESTful APIs on the backend.",
+      description: "Built a full-stack Twitter clone (React, Node.js, MongoDB) with a component-based frontend and scalable RESTful APIs for tweet creation, timeline feed, and user interactions.",
       imageUrl: twitterCloneImage,
       website: "https://twitter-clone-app-frontend.vercel.app/",
       githubUrl: "https://github.com/18121A05L2/Twitter-Clone-App"
     },
     {
       id: "proj-2",
-      title: "Trading Bot",
-      description: "Integrated Binance API for automated trading bot operations. Deployed in AWS Lambda.",
+      title: "Automated Trading Bot",
+      description: "Built a Node.js automated trading bot integrated with the Binance API for algorithmic trade execution, deployed on AWS Lambda for scalable, cost-efficient serverless execution.",
       imageUrl: tradingBotImage,
       githubUrl: "https://github.com/18121A05L2/ProjectB-37"
     },
